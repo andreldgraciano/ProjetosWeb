@@ -1,0 +1,47 @@
+h1 {
+    color: rgb(130, 130, 116);
+    font-size: 1.3em;
+}
+
+p {
+    color: black;
+    text-justify: auto;
+}
+
+a {
+    padding: 0.5em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: rgb(75, 86, 115);
+}
+
+#main {
+    background-image: url('../imagens/fundo.png');
+    display: grid;
+    width: 900px;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+#menu {
+    background-color: rgb(197, 197, 178);
+    text-decoration-color: rgb(75, 86, 115);
+    align-items: center;
+    padding: 1.5em;
+}
+
+#body {
+    background-color: rgb(232, 232, 217);
+}
+
+#foot {
+    text-align: center;
+}
+
+.border-img {
+    border: 0.8em solid rgb(197, 197, 178);
+}
