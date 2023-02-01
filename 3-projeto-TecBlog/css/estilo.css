@@ -75,3 +75,13 @@ a:hover {
     font-weight: bold;
     color: #FFC300;
 }
+
+.rodape {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #DEDADE;
+    padding: 15px;
+    width: 80%;
+    margin-left: 10%;
+}
