@@ -20,8 +20,13 @@ h3 {
     font-size: 22px;
 }
 
-a:link,
-:visited {
+a {
+    color: #FFC300;
+    text-decoration: none;
+}
+
+#menu a:link,
+#menu a:visited {
     text-decoration: none;
     color: white;
     background-color: #FFC300;
@@ -30,53 +35,36 @@ a:link,
     padding: 10px;
 }
 
-a:hover {
+#menu a:hover {
     color: #FFC300;
     background-color: white;
 }
 
-.corcinza {
-    color: #504D3E;
-}
-
-.principal {
+#principal {
     background-color: #FCF8FC;
     margin: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.menu {
+#menu {
     background-color: #FFC300;
     height: 140px;
     text-align: center;
 }
 
-.titulomenu {
+#titulomenu {
     color: white;
     font-weight: bold;
     padding-top: 10px
 }
 
-.noticia {
-    background-color: white;
-    width: 53%;
-    margin: 20px 0px 0px 10%;
-}
-
-.lateral {
-    width: 20%;
-    margin: 20px 15% 0px 0px;
-    background-color: white;
-    float: right;
-}
-
-.listalateral {
+#listalateral {
     font-size: 18px;
     font-weight: bold;
     color: #FFC300;
 }
 
-.rodape {
+#rodape {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
@@ -84,4 +72,21 @@ a:hover {
     padding: 15px;
     width: 80%;
     margin-left: 10%;
+}
+
+.corcinza {
+    color: #504D3E;
+}
+
+.noticia {
+    background-color: white;
+    width: 53%;
+    margin-left: 10%;
+}
+
+.lateral {
+    width: 20%;
+    margin: 20px 15% 0px 0px;
+    background-color: white;
+    float: right;
 }
