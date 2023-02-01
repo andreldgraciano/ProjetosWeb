@@ -1,0 +1,77 @@
+h1 {
+    margin: 0px;
+    font-size: 3.2em;
+}
+
+h2 {
+    padding-top: 10px;
+    margin: 0px;
+    color: #FFC300;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+h3 {
+    color: #504D3E;
+    background-color: #DEDADE;
+    margin: 0px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+a:link,
+:visited {
+    text-decoration: none;
+    color: white;
+    background-color: #FFC300;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 10px;
+}
+
+a:hover {
+    color: #FFC300;
+    background-color: white;
+}
+
+.corcinza {
+    color: #504D3E;
+}
+
+.principal {
+    background-color: #FCF8FC;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu {
+    background-color: #FFC300;
+    height: 140px;
+    text-align: center;
+}
+
+.titulomenu {
+    color: white;
+    font-weight: bold;
+    padding-top: 10px
+}
+
+.noticia {
+    background-color: white;
+    width: 53%;
+    margin: 20px 0px 0px 10%;
+}
+
+.lateral {
+    width: 20%;
+    margin: 20px 15% 0px 0px;
+    background-color: white;
+    float: right;
+}
+
+.listalateral {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFC300;
+}
