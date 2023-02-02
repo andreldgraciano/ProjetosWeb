@@ -1,0 +1,119 @@
+/* Limpar formatação padrão */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* 16px */
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: white;
+}
+
+h2 {
+    color: #f7b600;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h3 {
+    color: #4e4e4e;
+    background: rgb(230, 224, 224);
+    padding: 5px;
+}
+
+hr {
+    margin: 10px 0px;
+}
+
+a {
+    color: #f7b600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#menu a {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    padding: 8px 12px;
+}
+
+#menu a:hover {
+    color: #f7b600;
+    background: white;
+    text-decoration: underline;
+}
+
+.cinza {
+    color: #4e4e4e;
+}
+
+#cabeçalho {
+    background: #f7b600;
+    text-align: center;
+    padding: 15px;
+}
+
+#logo,
+#menu {
+    padding: 10px;
+}
+
+#principal {
+    width: 920px;
+    background: #FCF8FC;
+    margin: 0 auto;
+}
+
+#rodape {
+    color: #4e4e4e;
+    background: rgb(230, 224, 224);
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#noticias {
+    width: 660px;
+    float: left;
+}
+
+.area-noticia {
+    padding: 10px;
+    background: white;
+    margin: 10px 0px;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    display: block;
+    padding-bottom: 10px;
+}
+
+#lateral {
+    width: 240px;
+    float: right;
+}
+
+#area-lateral {
+    padding: 10px;
+    background: white;
+    margin: 10px 0px;
+}
+
+.clear {
+    clear: both;
+}
+
+.espacamento-img-p {
+    padding-top: 10px;
+}
