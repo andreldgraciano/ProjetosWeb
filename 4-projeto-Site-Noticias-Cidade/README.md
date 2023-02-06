@@ -1,4 +1,4 @@
-# Projeto 3 - TecBlog
+# Projeto 4 - TecBlog
 Este projeto se trata de um site de notícias. Com esse projeto, eu pude testar os conhecimentos e aplicar os elementos como:
 
 -Aprofundamento de seletores
