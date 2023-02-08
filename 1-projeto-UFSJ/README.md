@@ -7,3 +7,7 @@ Este projeto se trata de uma página de uma universidade, a qual foi adaptada pa
 - link, navegação
 - lista
 - formulário
+
+<img src=”paginas/index.png” width="400px">
+<img src=”paginas/sobre.png” width="400px">
+<img src=”paginas/contato.png” width="400px">
