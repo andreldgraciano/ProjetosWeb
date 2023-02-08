@@ -13,3 +13,7 @@ Este projeto se trata de um site de notícias. Com esse projeto, eu pude testar 
 - Estilização de tabelas
 - Estilização de formulários
 - Arredondamento com imagens
+
+<img src="paginas/index.png" width="400px">
+<img src="paginas/brasil.png" width="400px">
+<img src="paginas/fotos.png" width="400px">

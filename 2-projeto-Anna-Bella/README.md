@@ -11,3 +11,7 @@ Este projeto se trata de um site de publicidade para uma modelo ficticia. Com es
 - Estilos de textos
 - Cor e imagem de fundo
 - CSS Externo
+
+<img src="paginas/index.png" width="400px">
+<img src="paginas/publicidade.png" width="400px">
+<img src="paginas/contatos.png" width="400px">

@@ -6,3 +6,5 @@ Este projeto se trata de um Blog de Tecnologia. Com esse projeto, eu pude testar
 - Posicionamento estático, relativo, absoluto e fixo
 - Sobreposição de elementos
 - Formatação de links
+
+<img src="paginas/index.png" width="400px">

@@ -13,3 +13,5 @@ Este projeto se trata de um site de um Chalé Hotel. Com esse projeto, eu pude t
 - Estilização de tabelas
 - Estilização de formulários
 - Arredondamento com imagens
+
+<img src="paginas/index.png" width="400px">
