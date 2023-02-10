@@ -88,7 +88,6 @@ a.reserva {
 
 #menu {
     margin-top: 15px;
-
 }
 
 ul {
@@ -125,6 +124,11 @@ ul#navegação a:hover {
     padding: 15px 0;
 }
 
+.conteudo {
+    margin: 0 auto;
+    width: 90%;
+}
+
 h2 {
     color: #7d7640;
     font-size: 1.1em;
@@ -141,11 +145,6 @@ p {
     width: 50%;
     background: url(../imagens/bg-area-lateral.png) top left repeat-x;
     padding: 20px 0;
-}
-
-.conteudo {
-    margin: 0 auto;
-    width: 90%;
 }
 
 #rodape {
