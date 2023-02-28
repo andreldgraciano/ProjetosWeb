@@ -1,6 +1,6 @@
-# Projeto 7 - Finans
+# Projeto 8 - Spotify
 
-Este projeto se trata de um site de Finanças. Com esse projeto, eu pude testar os conhecimentos e aplicar os elementos como:
+Este projeto se trata de uma réplica do site Spotify. Com esse projeto, eu pude testar os conhecimentos e aplicar os elementos como:
 
 ##Design responsivo & Bootstrap
 
@@ -28,8 +28,11 @@ Este projeto se trata de um site de Finanças. Com esse projeto, eu pude testar 
 - Configurações & Alinhamento de Grid
 - Flexbox
 - Margin & Wrap
+- Carousel
 
+<img src="paginas/index0.png" width="400px">
 <img src="paginas/index1.png" width="400px">
 <img src="paginas/index2.png" width="400px">
 <img src="paginas/index3.png" width="400px">
 <img src="paginas/index4.png" width="400px">
+<img src="paginas/index5.png" width="400px">
