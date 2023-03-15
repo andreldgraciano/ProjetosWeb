@@ -1,7 +1,9 @@
 var largura = 0
 var altura = 0
 var vidas = 1
-var tempo = 15
+var tempo = 10
+
+var criaMosquitoTempo = 1500
 
 var nivel = window.location.search.replace('?', '')
 
@@ -12,6 +14,7 @@ if (nivel === 'facil') {
 } else if (nivel === 'dificil') {
     criaMosquitoTempo = 750
 }
+
 
 function ajustarTamanhoJogo() {
     largura = window.innerWidth
@@ -24,7 +27,7 @@ var cronometro = setInterval(function () {
     tempo -= 1
 
     if (tempo < 0) {
-        clearInterval(cronometro)
+        clearInterval(criaMosquito)
         clearInterval(cronometro)
         window.location.href = 'vitoria.html'
     } else {
