@@ -22,7 +22,7 @@ Este projeto se trata de uma réplica de um jogo chamado Mata mosquito. Com esse
 - Try, Catch, Throw e Finally
 - BOM
 
-<img src="/index.png" width="400px">
-<img src="/app.png" width="400px">
-<img src="/vitoria.png" width="400px">
-<img src="/fim_de_jogo.png" width="400px">
+<img src="paginas/index.png" width="400px">
+<img src="paginas/app.png" width="400px">
+<img src="paginas/vitoria.png" width="400px">
+<img src="paginas/fim_de_jogo.png" width="400px">
