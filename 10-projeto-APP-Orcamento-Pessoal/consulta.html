@@ -20,17 +20,16 @@
     <!-- Bootstrap fim -->
 
     <!-- Font Awesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="https://kit.fontawesome.com/9322b3a8a6.js"></script>
 
     <!-- Script compartilhado pelas views index.html e consulta.html -->
     <script src="js/app.js"></script>
 
 </head>
 
-<body>
+<body onload="carregarListaDespesas()">
 
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary mb-5">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="imagens/logo.png" width="50" height="35" alt="Orçamento pessoal">
@@ -66,6 +65,11 @@
                 <select class="form-control" id="ano">
                     <option value="">Ano</option>
                     <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
                 </select>
             </div>
 
@@ -93,7 +97,7 @@
 
             <div class="col-md-6">
                 <select class="form-control" id="tipo">
-                    <option>Tipo</option>
+                    <option value="">Tipo</option>
                     <option value="1">Alimentação</option>
                     <option value="2">Educação</option>
                     <option value="3">Lazer</option>
@@ -113,7 +117,7 @@
             </div>
 
             <div class="col-md-2 d-flex justify-content-end">
-                <button type="button" class="btn btn-primary">
+                <button type="button" class="btn btn-primary" onclick="pesquisarDespesa()">
                     <i class="fas fa-search"></i>
                 </button>
             </div>
@@ -132,8 +136,7 @@
                         </tr>
                     </thead>
 
-                    <tbody>
-                    </tbody>
+                    <tbody id="listaDespesas"></tbody>
                 </table>
             </div>
         </div>
