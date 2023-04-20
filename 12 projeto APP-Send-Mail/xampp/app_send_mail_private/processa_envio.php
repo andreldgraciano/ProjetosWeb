@@ -49,12 +49,12 @@
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'dedasgdiasemail@gmail.com';
-        $mail->Password   = 'sfnadnellhrlrbgi';
+        $mail->Username   = ''; //your gmail
+        $mail->Password   = ''; //your password app google
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
-        $mail->setFrom('dedasgdiasemail@gmail.com', 'Andre Dias');
+        $mail->setFrom('', ''); // (your gmail, your name)
         $mail->addAddress($mensagem->__get('destino'), $mensagem->__get('nome'));
 
         $mail->isHTML(true);
